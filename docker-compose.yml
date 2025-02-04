@@ -9,6 +9,7 @@ services:
       - ./src:/home/app/web/
       - static_volume:/home/app/web/staticfiles
       - media_volume:/home/app/web/media
+#      - ./.env:/home/app/web/.env
     expose:
       - 8010
     extra_hosts:

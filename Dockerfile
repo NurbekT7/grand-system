@@ -41,6 +41,7 @@ RUN pip install --no-cache /wheels/*
 COPY ./src/entrypoint.sh $APP_HOME
 COPY ./src $APP_HOME
 COPY .env $APP_HOME/
+#COPY .env /home/app/web/.env
 
 RUN chmod +x /home/app/web/entrypoint.sh
 RUN chmod +x /home/app/web/manage.py

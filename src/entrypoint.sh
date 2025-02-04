@@ -1,5 +1,5 @@
 #!/bin/sh
-export DJANGO_SETTINGS_MODULE=core.settings
+export DJANGO_SETTINGS_MODULE=config.settings
 if [ "$DATABASE" = "postgres" ]; then
     echo "Ждем, ждем..."
 

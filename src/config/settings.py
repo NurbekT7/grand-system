@@ -85,12 +85,12 @@ USE_TZ = True
 SITE_URL = env('SITE_URL', default='http://localhost')
 
 STATIC_URL = f'{SITE_URL}/static/'
-STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+    # os.path.join(BASE_DIR, 'static')
 ]
 
-MEDIA_URL = '/media/'
+MEDIA_URL = f'{SITE_URL}/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 GDAL_LIBRARY_PATH = env('GDAL_LIBRARY_PATH', default='/usr/lib/libgdal.so')
