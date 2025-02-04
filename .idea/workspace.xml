@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da05a2e4-f852-444a-bc1e-2ade91532ed0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,6 +48,12 @@
     "last_opened_file_path": "/home/nurbek/Desktop/A/hh/gsys"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/config" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
