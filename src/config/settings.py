@@ -6,6 +6,7 @@ env = environ.Env(
     DEBUG=(bool, False)
 )
 
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
@@ -91,5 +92,7 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+GDAL_LIBRARY_PATH = env('GDAL_LIBRARY_PATH', default='/usr/lib/libgdal.so')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
